@@ -1,0 +1,9 @@
+POST /a3/sql_injection/ HTTP/1.1
+Host: web0x01.hbtn
+User-Agent: Mozilla/5.0
+Accept: text/html
+Content-Type: application/x-www-form-urlencoded
+Cookie: session=lSaRQ9zAy3lY2lEpQiuUc2weK6bOwDj7u6ewF_sLfDY.oxUlptO0yiSm-yW4-cYRspLKdWg; hijack_session=0633e9f1-533d-45fb-9a7-7347380-17693649642
+Connection: close
+
+status=paid
