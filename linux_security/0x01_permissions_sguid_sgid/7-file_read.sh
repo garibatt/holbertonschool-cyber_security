@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/to/directory -type f -exec chmod o-wx,o+r {} \;
+find $1 -type f -exec chmod o-wx,o+r {} \;
