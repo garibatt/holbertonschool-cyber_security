@@ -1,2 +1,2 @@
 #!/bin/bash
-find $1 -type f \( -perm -4000 -o -perm -2000 \) -mtime -1 -print0 | xargs -0 ls -l
+find "$1" -type f -mtime -1 \( -perm -4000 -o -perm -2000 \) -exec ls -l {} \; 2>/dev/null
